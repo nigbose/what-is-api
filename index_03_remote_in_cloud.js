@@ -9,7 +9,7 @@ const cosmos = require("@azure/cosmos");
 
 //Need a new client, api shows up the options
 //Get connection string by hovering over db and right click, copy connectionstring
-const client = new cosmos.CosmosClient("AccountEndpoint=https://tailwind-traders-21290.documents.azure.com:443/;AccountKey=Ss5g1cAZYNm4T4PSSlR6ddPt6CIVPDLCyRallnbMfNCVXiVIj1INQNCicsLiWBseDethggxVWdI8ACDbqqkk6w==");
+const client = new cosmos.CosmosClient("AccountEndpoint=https://tailwind-traders-tr01.documents.azure.com:443/;AccountKey=AnVfIqE33Gp9jPfu0UwjLNFjBzwV0Axfcp7VJaXqpPnhjFaVF5Zy2qDemaybqBm70THlUCJcN7mBACDb1P4G9Q==;");
 
 //create a new database
 const database = client.database("tailwind");
